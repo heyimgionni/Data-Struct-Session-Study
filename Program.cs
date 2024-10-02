@@ -1,32 +1,32 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-int[] arr = { 87, 9, 1, 78 };
-int[] sortedArr = QuickSort(arr);
-Console.WriteLine(string.Join(", ", sortedArr)); // Output: 1, 9, 78, 87
-
-static int[] QuickSort(int[] arr) {
-    if(arr.Length < 2) {
-        return arr;
-    }
-    else {
-        int pivot = arr[0];
-        List<int> less = new List<int>(); 
-        List<int> grater = new List<int>(); 
-
-        for (int i = 1; i < arr.Length; i++) {
-            if (arr[i] < pivot) {
-                less.Add(arr[i]);
-            }
-            if(arr[i] > pivot) {
-                grater.Add(arr[i]);
-            }
-        }
-        return 
-        QuickSort(less.ToArray()).
-        Concat(new int[] {pivot}).
-        Concat(QuickSort(grater.ToArray())).
-        ToArray();
-    }
-}
+﻿// ripassino
 
 
+//Console.WriteLine("Hello World");
+//Console.ReadLine();
+
+// int n;
+// n = int.Parse(Console.ReadLine());
+
+// try {
+
+// }
+
+// catch (Exception e) {
+
+// }
+
+// if , else , else if 
+// switch
+// for , while , do while 
+
+// foreach (tipo t in Array/lista) {}
+
+// tipo [] nomeArray  = {} or new tipo[]
+// List<tipo> nomeLista = new List<tipo>
+
+// visibilita (tipo e tipo di ritorno) nomeMetodo(parametri) { corpo del metodo } 
+
+// visibilita class nome { corpo della classe}
+    // costruttore sia vuoto sia con attributi(proprietà) stesso nome della classe
+
+// = assegnazione , new istanza , private property in a class to use get and set encapsulamento 
